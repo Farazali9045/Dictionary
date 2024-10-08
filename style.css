@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #4D59FB;
+    
+}
+.dictionaryBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 410px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.inputBox{
+    position: relative;
+    width: 100%;
+}
+.fa-magnifying-glass{
+    top: 17px;
+    left: 8px;
+    position: absolute;
+    color: lightslategray;
+}
+.fa-xmark{
+    top: 17px;
+    right: 10px;
+    position: absolute;
+    color: lightslategray;
+    cursor: pointer;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 30px;
+}
+.meaningBox{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.fa-volume-high{
+    position: absolute;
+    color: rgb(198, 202, 205);
+    top: 16px;
+    right: 10px;
+    cursor: pointer;
+
+    font-size: 16px;
+}
+.meaningBox h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+ p{
+    font-size: 14px;
+    font-weight: 300;
+    color: lightslategray;
+}
+.line{
+    width: 100%;
+    height: 1.5px;
+    background-color: rgb(158, 166, 174);
+    margin-top: 10px;
+}
+.meaning, .example, .synonym{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+span{
+    text-decoration: underline;
+}
